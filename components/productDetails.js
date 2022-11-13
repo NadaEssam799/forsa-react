@@ -26,7 +26,7 @@ function ProductDetails(props) {
         setCurrentProduct(
           data.find((product) => product.id == router.query.productDetails)
         );
-        // setCurrentImage(data.find((product) => product.id == router.query.productDetails).img[0])
+         setCurrentImage(data.find((product) => product.id == router.query.productDetails)?.img[0])
       });
   }, [router.query.productDetails]);
 
