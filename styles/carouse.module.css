@@ -1,0 +1,44 @@
+.item {
+    border: 1px solid #DDDDDD;
+    height: auto;
+    padding: 10px 21px;
+}
+.itemlast{
+    border-radius: 0 10px 10px 0;
+}
+.itemfirst{
+    border-radius: 10px 0 0 10px;
+
+}
+
+.not_available {
+    color: rgb(243, 47, 47);
+  }
+  
+
+.item > img{
+    width:250px;
+}
+
+.product_name {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.product_price {
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0;
+}
+
+.availability {
+    color: #36BA5C;
+}
+.arrow{
+    border: none;
+    background: transparent;
+    font-size: 28px;
+    font-weight: bolder;
+}

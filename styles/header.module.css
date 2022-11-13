@@ -1,0 +1,71 @@
+.color{
+    color: red;
+    text-align: center;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+/*
+    ===============================
+            Navbar Styles
+    ===============================
+*/
+
+.navbar {
+    overflow: hidden;
+    background: black;
+    position: relative;
+    height: 88px;
+}
+
+.navbar .logo {
+    float: left;
+}
+
+
+
+.navbar .ul_list {
+    float: right;
+    list-style: none;
+}
+
+.navbar .ul_list .list_item {
+    display: inline-block;
+}
+
+.navbar .ul_list .list_item a {
+    display: block;
+    color: #fff;
+    font-size: 16;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+/* Media for Navbar Style */ 
+
+@media (min-width : 992px) {
+    .navbar label {
+        display: none
+    }
+}
+
+@media (max-width : 991px) {
+    .navbar .logo {
+        width: 100%;
+        float: none;
+    }
+    
+    .navbar .ul_list {
+        width: 100%;
+        float:  none;
+        margin-top: 20px;
+        display: none
+    }
+    
+    .navbar .ul_list .list_item {
+        display: block;
+        text-align: center;
+    }
+}

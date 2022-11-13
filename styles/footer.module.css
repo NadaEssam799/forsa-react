@@ -1,0 +1,15 @@
+.footer {
+    padding-top: 20px;
+    overflow: hidden;
+    background: black;
+    width: 100%;
+}
+.footer .copy{
+    text-align: center;
+    font: normal normal normal 12px/14px SF Pro Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 12px;
+    padding-top: 20px;
+}
