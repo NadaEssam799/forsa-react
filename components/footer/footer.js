@@ -12,13 +12,13 @@ function FooterComponent(){
                 <Image src={require('../../images/apple.png')} width={45} height={68}/> 
             </div>
             <div class="col-2">
-                <Image src={require('../../images/apple2.png')} width={45} height={68}/>
+                <Image src={require('../../images/apple.png')} width={45} height={68}/>
             </div>
             <div class="col-2">
-                 <Image src={require('../../images/apple3.png')} width={45} height={68}/>
+                 <Image src={require('../../images/apple.png')} width={45} height={68}/>
             </div>
             <div class="col-2">
-                 <Image src={require('../../images/apple4.png')} width={45} height={68}/>
+                 <Image src={require('../../images/apple.png')} width={45} height={68}/>
             </div>
             <div class="col-2">
 
